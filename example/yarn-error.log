@@ -1,0 +1,52 @@
+Arguments: 
+  /home/jesse/.nvm/versions/node/v12.9.1/bin/node /usr/share/yarn/bin/yarn.js install
+
+PATH: 
+  /home/jesse/.npm/_npx/5581/bin:/usr/local/cuda/bin:/usr/local/texlive/2018/bin/x86_64-linux:/home/jesse/.pyenv/plugins/pyenv-virtualenv/shims:/home/jesse/.pyenv/shims:/home/jesse/.pyenv/bin:/home/jesse/.nvm/versions/node/v12.9.1/bin:/home/jesse/.cargo/bin:/home/jesse/.opam/4.04.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/jesse/.cargo/bin:/snap/bin:/home/jesse/.pulumi/bin:/usr/local/bin/wabt/wabt-1.0.13
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.9.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, lstat '/media/jesse/Data/Programming/react-dvi/node_modules/react-scripts/node_modules/@babel/plugin-syntax-object-rest-spread'
+
+npm manifest: 
+  {
+    "name": "react-dvi-example",
+    "homepage": "https://jhoobergs.github.io/react-dvi",
+    "version": "0.0.0",
+    "private": true,
+    "dependencies": {
+      "react": "link:../node_modules/react",
+      "react-dom": "link:../node_modules/react-dom",
+      "react-scripts": "link:../node_modules/react-scripts",
+      "react-dvi": "link:.."
+    },
+    "scripts": {
+      "start": "node ../node_modules/react-scripts/bin/react-scripts.js start",
+      "build": "node ../node_modules/react-scripts/bin/react-scripts.js build",
+      "test": "node ../node_modules/react-scripts/bin/react-scripts.js test",
+      "eject": "node ../node_modules/react-scripts/bin/react-scripts.js eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
