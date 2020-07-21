@@ -2,12 +2,12 @@ import * as React from 'react'
 // import styles from './styles.module.css'
 import { process, DviHTML } from './dvi'
 
-interface SrcType {
+export interface SrcType {
   type: 'src'
   src: string
 }
 
-interface DataType {
+export interface DataType {
   type: 'data'
   data: string
 }
